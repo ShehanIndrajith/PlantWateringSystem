@@ -22,8 +22,8 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 #define FIREBASE_AUTH "2LUgpZRyvT6aWsX0CUdkqDeLjNQ2Jl3JwvY2Qgyr" // Firebase auth code
 int fireStatus = 0;
 // WiFi credentials
-#define WIFI_SSID "shehan" // WiFi SSID
-#define WIFI_PASSWORD "shehan@2002" // WiFi password
+#define WIFI_SSID "" // WiFi SSID
+#define WIFI_PASSWORD "" // WiFi password
 
 void setup() {
   // Initialize Serial communication
